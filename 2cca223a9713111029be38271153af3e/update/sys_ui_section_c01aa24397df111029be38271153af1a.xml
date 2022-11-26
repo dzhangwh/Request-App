@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="c01aa24397df111029be38271153af1a" sys_domain="global" table="x_903284_request_request_app" version="3" view="User">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-26 01:24:07</sys_created_on>
+            <sys_id>274aa64397df111029be38271153af67</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_903284_request_request_app" sys_domain="global" view="5bd975bd0fa03200cd674f8ce1050e7f">c01aa24397df111029be38271153af1a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-26 01:24:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_requested_for</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-26 01:24:07</sys_created_on>
+            <sys_id>a74aa64397df111029be38271153af67</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_903284_request_request_app" sys_domain="global" view="5bd975bd0fa03200cd674f8ce1050e7f">c01aa24397df111029be38271153af1a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-26 01:24:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-26 01:24:07</sys_created_on>
+            <sys_id>2b4aa64397df111029be38271153af67</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_903284_request_request_app" sys_domain="global" view="5bd975bd0fa03200cd674f8ce1050e7f">c01aa24397df111029be38271153af1a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-26 01:24:07</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_when_needed</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-26 01:24:07</sys_created_on>
+            <sys_id>ab4aa64397df111029be38271153af67</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_903284_request_request_app" sys_domain="global" view="5bd975bd0fa03200cd674f8ce1050e7f">c01aa24397df111029be38271153af1a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-26 01:24:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_request_type</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-26 01:24:07</sys_created_on>
+            <sys_id>2f4aa64397df111029be38271153af67</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_903284_request_request_app" sys_domain="global" view="5bd975bd0fa03200cd674f8ce1050e7f">c01aa24397df111029be38271153af1a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-26 01:24:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_what_needed</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-26 01:24:07</sys_created_on>
+            <sys_id>af4aa64397df111029be38271153af67</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_903284_request_request_app" sys_domain="global" view="5bd975bd0fa03200cd674f8ce1050e7f">c01aa24397df111029be38271153af1a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-26 01:24:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-26 01:24:07</sys_created_on>
+            <sys_id>234aa64397df111029be38271153af68</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_903284_request_request_app" sys_domain="global" view="5bd975bd0fa03200cd674f8ce1050e7f">c01aa24397df111029be38271153af1a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-26 01:24:07</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-26 01:24:07</sys_created_on>
+            <sys_id>a34aa64397df111029be38271153af68</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_903284_request_request_app" sys_domain="global" view="5bd975bd0fa03200cd674f8ce1050e7f">c01aa24397df111029be38271153af1a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-26 01:24:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-26 01:24:07</sys_created_on>
+            <sys_id>274aa64397df111029be38271153af68</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_903284_request_request_app" sys_domain="global" view="5bd975bd0fa03200cd674f8ce1050e7f">c01aa24397df111029be38271153af1a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-26 01:24:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_903284_request_request_app</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-26 01:23:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c01aa24397df111029be38271153af1a</sys_id>
+            <sys_name>x_903284_request_request_app</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Request" source="x_903284_request">2cca223a9713111029be38271153af3e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Request">2cca223a9713111029be38271153af3e</sys_scope>
+            <sys_update_name>sys_ui_section_c01aa24397df111029be38271153af1a</sys_update_name>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="User" name="User">5bd975bd0fa03200cd674f8ce1050e7f</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
