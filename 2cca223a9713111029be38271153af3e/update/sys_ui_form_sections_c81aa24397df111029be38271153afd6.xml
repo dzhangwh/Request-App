@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="c81aa24397df111029be38271153afd6" sys_domain="global" table="x_903284_request_request_app" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-26 01:23:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>401aa24397df111029be38271153afd9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_903284_request_request_app" name="x_903284_request_request_app" sys_domain="global" view="5bd975bd0fa03200cd674f8ce1050e7f">c81aa24397df111029be38271153afd6</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_903284_request_request_app" sys_domain="global" view="5bd975bd0fa03200cd674f8ce1050e7f">c01aa24397df111029be38271153af1a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-26 01:23:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_903284_request_request_app</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-26 01:23:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c81aa24397df111029be38271153afd6</sys_id>
+            <sys_name>x_903284_request_request_app</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Request" source="x_903284_request">2cca223a9713111029be38271153af3e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Request">2cca223a9713111029be38271153af3e</sys_scope>
+            <sys_update_name>sys_ui_form_sections_c81aa24397df111029be38271153afd6</sys_update_name>
+            <sys_user/>
+            <view display_value="User" name="User">5bd975bd0fa03200cd674f8ce1050e7f</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

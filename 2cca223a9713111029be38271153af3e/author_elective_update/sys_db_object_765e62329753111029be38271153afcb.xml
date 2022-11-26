@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <is_extendable>false</is_extendable>
+        <label>Request</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_903284_request_request</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Task" name="task">2e7056e4f90211108c8bd16244dfe707</super_class>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-25 07:04:46</sys_created_on>
+        <sys_id>765e62329753111029be38271153afcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request</sys_name>
+        <sys_package display_value="Request" source="x_903284_request">2cca223a9713111029be38271153af3e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request">2cca223a9713111029be38271153af3e</sys_scope>
+        <sys_update_name>sys_db_object_765e62329753111029be38271153afcb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-25 07:04:46</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role display_value="x_903284_request.request_user" name="x_903284_request.request_user">a3aea6329753111029be38271153af9a</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Request">2cca223a9713111029be38271153af3e</application>
+        <file_path/>
+        <instance_id>98365f74db09fb04387021c4059619fa</instance_id>
+        <instance_name>dev83176</instance_name>
+        <name>sys_db_object_765e62329753111029be38271153afcb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><is_extendable>false</is_extendable><label>Request</label><live_feed_enabled>false</live_feed_enabled><name>x_903284_request_request</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class display_value="Task" name="task">2e7056e4f90211108c8bd16244dfe707</super_class><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-25 07:04:46</sys_created_on><sys_id>765e62329753111029be38271153afcb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Request</sys_name><sys_package display_value="Request" source="x_903284_request">2cca223a9713111029be38271153af3e</sys_package><sys_policy/><sys_scope display_value="Request">2cca223a9713111029be38271153af3e</sys_scope><sys_update_name>sys_db_object_765e62329753111029be38271153afcb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-25 07:04:46</sys_updated_on><update_access>false</update_access><user_role display_value="x_903284_request.request_user" name="x_903284_request.request_user">a3aea6329753111029be38271153af9a</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>-169479086</payload_hash>
+        <record_name>Request</record_name>
+        <reverted_from/>
+        <source>f72c2af69713111029be38271153af46</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-25 07:04:47</sys_created_on>
+        <sys_id>b7aea6329753111029be38271153afe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184ad9a64e70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-25 07:04:47</sys_updated_on>
+        <type>Table</type>
+        <update_guid>ffaea6324953111028dbf0817f1c01e3</update_guid>
+        <update_guid_history>ffaea6324953111028dbf0817f1c01e3:-169479086</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-25 07:07:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>07073f5d3eed436283cff3860fa40e31</sys_id>
+        <sys_metadata>765e62329753111029be38271153afcb</sys_metadata>
+        <sys_name>Request</sys_name>
+        <sys_package display_value="Request" source="x_903284_request">2cca223a9713111029be38271153af3e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Request">2cca223a9713111029be38271153af3e</sys_scope>
+        <sys_scope_delete display_value="">33bd6210db6e47f0b33a341b09d45ba4</sys_scope_delete>
+        <sys_update_name>sys_db_object_765e62329753111029be38271153afcb</sys_update_name>
+        <sys_update_version display_value="sys_db_object_765e62329753111029be38271153afcb">b7aea6329753111029be38271153afe4</sys_update_version>
+    </sys_metadata_delete>
+</record_update>
