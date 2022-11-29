@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_903284_request_request_app</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Request App When needed field date</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[// rightnow is our variable for the current time
+  var rightnow = new GlideDateTime();
+  // Create a GlideDateTime object for the When needed date
+  var whenNeeded = new GlideDateTime(current.u_when_needed);
+
+  
+  // If the When needed date is before rightnow, do not write the record to the database
+  // Output an error message to the screen
+  if(whenNeeded.before(rightnow)){
+    gs.addErrorMessage("When needed date cannot be in the past.  Your request has not been saved to the database.");
+    current.setAbortAction(true);
+  }
+
+  //get the dates of our old objects without timestamps
+	var today = rightnow.getLocalDate();
+	var isToday = whenNeeded.getLocalDate();
+
+	//compare today and isToday 
+  if(today.compareTo(isToday) == 0){
+  gs.addErrorMessage("Requests can't be fulfilled on the same day.");
+  current.setAbortAction(true);
+  }]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-29 16:02:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fdef85dc97eb111029be38271153affc</sys_id>
+        <sys_name>Request App When needed field date</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Request" source="x_903284_request">2cca223a9713111029be38271153af3e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request">2cca223a9713111029be38271153af3e</sys_scope>
+        <sys_update_name>sys_script_fdef85dc97eb111029be38271153affc</sys_update_name>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=fdef85dc97eb111029be38271153affc"/>
+</record_update>
