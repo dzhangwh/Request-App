@@ -27,20 +27,18 @@
         <rest_service_text/>
         <rest_variables/>
         <role_conditions/>
-        <script><![CDATA[// rightnow is our variable for the current time
-  var rightnow = new GlideDateTime();
-  // Create a GlideDateTime object for the When needed date
-  var whenNeeded = new GlideDateTime(current.u_when_needed);
-
+        <script><![CDATA[  // Instantiate the RequestUtils class.  Call the isDatePast method and pass 
+  // the u_when_needed value.
+  var niutils = new RequestUtils();
+  var isPast = niutils.isDatePast(current.u_when_needed);
   
-  // If the When needed date is before rightnow, do not write the record to the database
-  // Output an error message to the screen
-  if(whenNeeded.before(rightnow)){
+  // If the isDatePast method returns true, the date is in the past.
+  if(isPast == true){
     gs.addErrorMessage("When needed date cannot be in the past.  Your request has not been saved to the database.");
     current.setAbortAction(true);
   }
 
-  //get the dates of our old objects without timestamps
+  /*//get the dates of our old objects without timestamps
 	var today = rightnow.getLocalDate();
 	var isToday = whenNeeded.getLocalDate();
 
@@ -48,7 +46,8 @@
   if(today.compareTo(isToday) == 0){
   gs.addErrorMessage("Requests can't be fulfilled on the same day.");
   current.setAbortAction(true);
-  }]]></script>
+  }
+  */]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-29 16:02:34</sys_created_on>
