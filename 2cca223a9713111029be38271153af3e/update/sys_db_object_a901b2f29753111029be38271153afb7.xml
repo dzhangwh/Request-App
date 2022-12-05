@@ -27,7 +27,7 @@
         <sys_policy/>
         <sys_scope display_value="Request">2cca223a9713111029be38271153af3e</sys_scope>
         <sys_update_name>sys_db_object_a901b2f29753111029be38271153afb7</sys_update_name>
-        <update_access>false</update_access>
+        <update_access>true</update_access>
         <user_role display_value="x_903284_request.request_app_user" name="x_903284_request.request_app_user">8821f2f29753111029be38271153af8d</user_role>
         <ws_access>true</ws_access>
     </sys_db_object>
