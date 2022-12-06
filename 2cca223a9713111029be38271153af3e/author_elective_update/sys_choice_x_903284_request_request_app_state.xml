@@ -17,10 +17,26 @@
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Requested</label>
+            <label>Open</label>
             <language>en</language>
             <name>x_903284_request_request_app</name>
             <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-06 10:52:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Requested</label>
+            <language>en</language>
+            <name>x_903284_request_request_app</name>
+            <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-11-25 08:08:27</sys_created_on>
@@ -36,7 +52,7 @@
             <label>Awaiting Approval</label>
             <language>en</language>
             <name>x_903284_request_request_app</name>
-            <sequence>1</sequence>
+            <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-11-25 08:08:27</sys_created_on>
@@ -52,7 +68,7 @@
             <label>Approved</label>
             <language>en</language>
             <name>x_903284_request_request_app</name>
-            <sequence>2</sequence>
+            <sequence>3</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-11-25 08:08:27</sys_created_on>
@@ -68,7 +84,7 @@
             <label>Awaiting Feedback</label>
             <language>en</language>
             <name>x_903284_request_request_app</name>
-            <sequence>3</sequence>
+            <sequence>4</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-11-25 08:08:27</sys_created_on>
@@ -84,7 +100,7 @@
             <label>Closed Complete</label>
             <language>en</language>
             <name>x_903284_request_request_app</name>
-            <sequence>4</sequence>
+            <sequence>5</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-11-25 08:08:27</sys_created_on>
@@ -100,7 +116,7 @@
             <label>Withdrawn</label>
             <language>en</language>
             <name>x_903284_request_request_app</name>
-            <sequence>5</sequence>
+            <sequence>6</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-11-25 08:08:27</sys_created_on>
