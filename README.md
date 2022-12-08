@@ -10,9 +10,9 @@ The goal of this app is to simplify the request submission process in a business
 
 The Request App table is extended from the Task table and features:
 
-1. Custom tables, application menu, modules, and form layout tailored to solve the business problem.
-2. Client-side scripts using GlideForm and GlideUser Classes, UI Policies, and UI Policy Actions.
-3. Server-side scripts including Business Rules, Script Includes, and Extended GlideAjax Script Includes.
+1. Custom Tables, Application Menu, Modules, and Form layout tailored to solve the business problem.
+2. Client-side Scripts using Client-side APIs, UI Policies, and UI Policy Actions.
+3. Server-side Scripts including Business Rules, Server-side APIs, Script Includes, and Extended Script Includes.
 4. Custom Flows, Triggers, Approvals/Rejections, and If/Else Flow Logic using Flow Designer.
 5. Scheduled Script Execution, Scripted Event Generation, and Script Actions.
 6. Secure through Custom Roles, Groups, Access Controls, Runtime Access Tracking, and Application Access.
