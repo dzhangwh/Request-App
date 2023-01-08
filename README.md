@@ -4,7 +4,7 @@
 <div align="center">
 	<h1>Request App</h1>
 	<p>A request management app that aims to simplify the request submission process.</p>
-	<a href="https://www.youtube.com/watch?v=eIRSSMs32uM&ab_channel=NASuperstar">Request App Video Demo</a>
+	<a href="https://youtu.be/LVF1vc2Hdv4">Request App Video Demo</a>
 </div>
 
 
